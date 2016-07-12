@@ -1,0 +1,42 @@
+body {
+	background-color:#3f94e7;
+}
+
+.container {
+	width:100%;
+	height:100%;
+}
+
+.topnav {
+	text-align:center;
+	padding-top:75px;
+	padding-bottom:25px;
+}
+
+.logo {
+	width:125px;
+}
+
+.leftborder {
+	width:33.3%;
+	display:inline-block;
+}
+
+.rightborder {
+	width:33.3%;
+	display:inline-block;
+}
+
+.center {
+
+	background-color:white;
+	width:33.3%;
+	display:inline-block;
+	border:1px solid lightgrey;
+	border-radius:3px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+}
