@@ -2,25 +2,6 @@ body {
 	background-color:#3f94e7;
 }
 
-.topnav {
-	padding-top:75px;
-	padding-bottom:25px;
-	margin:auto;
-	text-align:center;
-}
-
-.logo {
-	height:75px;
-}
-
-.center {
-	background-color:white;
-	margin:auto;
-	width:320px;
-	border-radius:3px;
-	padding:20px 40px 20px 40px;
-}
-
 h1 {
 	text-align:center;
 }
@@ -31,15 +12,7 @@ label {
   font-weight:bold;
 }
 
-input[type="email"] {
-	border:2px solid lightgrey;
-	border-radius:3px;
-	width:286px;
-	margin:15px 15px 15px 0px;
-	padding:15px;
-}
-
-input[type="password"] {
+input[type="password"], input[type="email"] {
 	border:2px solid lightgrey;
 	border-radius:3px;
 	width:286px;
@@ -61,6 +34,25 @@ button[type="submit"] {
 
 a:link {
 	font-size:14px;
+}
+
+.topnav {
+	padding-top:75px;
+	padding-bottom:25px;
+	margin:auto;
+	text-align:center;
+}
+
+.logo {
+	height:75px;
+}
+
+.center {
+	background-color:white;
+	margin:auto;
+	width:320px;
+	border-radius:3px;
+	padding:20px 40px;
 }
 
 .forgot {
