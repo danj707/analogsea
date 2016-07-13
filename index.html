@@ -10,32 +10,36 @@
 
 <body>
 
-<div class="container">
-
 	<section>
-		<nav>
-		<div class="topnav"><img class="logo" src="logo.png" alt="Analog Sea"></div>
-		</nav>
+	<div class="topnav">
+	<img class="logo" src="logo.png" alt="AnalogSea">
+	</div>
 	</section>
 
-	<div class="leftborder"></div>
-
+	<section>
 	<div class="center">
 	<h1>Sign Up</h1>
 
-	<fieldset name="signup-form">
-	<form action="" method="post" class="signup-form">
+
+	<form action="/signup/" method="post" class="signup-form">
+
 	<label for="email">Email</label>
-	<input placeholder="joe@yahoo.com" type="email" name="email" id="email" /> 
-	    <button type="submit">Submit</button>
-    <button type="reset">Reset</button>
-  </form>
-  </fieldset>
+	<input placeholder="foo@bar.com" type="email" name="email" id="email" required /> 
+	
+	<label for="email">Password</label>
+	<input placeholder="1234passw0rd" type="password" name="password" id="password" required /> 
+	
+	<button type="submit">Sign Up</button>
+
+  	</form>
+
+	<div class="forgot"><a class="forgot" href="/forgot-password/new">Forgot password?</a></div>
 	</div>
+	</section>
 
-	<div class="rightborder"></div>
-
-</div>
+	<section>
+	<div class="login">Already have an account? <a class="login" href="/login">Log in</a></div>
+	</section>
 
 </body>
 </html>
