@@ -36,15 +36,15 @@ a:link {
 	font-size:14px;
 }
 
+.logo {
+	height:35px;
+}
+
 .topnav {
 	padding-top:75px;
 	padding-bottom:25px;
 	margin:auto;
 	text-align:center;
-}
-
-.logo {
-	height:75px;
 }
 
 .center {
